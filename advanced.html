@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="advanced.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+            </ul>            
+        </header>
+        <form action="https://google.com/search">
+            <div class="advanced-row">
+                <p>all these words: </p>
+                <input class="search-bar" type="text" name="as_q" autocomplete="off">
+            </div>
+            <div class="advanced-row">
+                <p>this exact word or phrases: </p>
+                <input class="search-bar" type="text" name="as_epq" autocomplete="off">
+            </div>
+            <div class="advanced-row">
+                <p>any of these words: </p>
+                <input class="search-bar" type="text" name="as_oq" autocomplete="off">
+            </div>
+            <div class="advanced-row">
+                <p>none of these words: </p>
+                <input class="search-bar" type="text" name="as_eq" autocomplete="off">
+            </div>
+        <div class="button-container">
+            <button class="button" type="submit">Advanced search</button>
+        </div>
+        </form>
+    </body>
+</html>
